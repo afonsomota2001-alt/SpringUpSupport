@@ -1,261 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpringUp | Support Center</title>
-    <!-- Tailwind CSS is essential here to ensure icon sizes and layout work correctly -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3B82F6',
-                        navy: '#1E3A8A',
-                    }
-                }
-            }
-        }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpringUp · Training management for trampoline and DMT</title>
+  <meta name="description" content="SpringUp is a training management app for trampoline (TRA) and double mini-trampoline (DMT), for coaches and gymnasts: training log, time of flight with Veriflite, training plans and club management.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="alternate" hreflang="en" href="./">
+  <link rel="alternate" hreflang="pt-PT" href="pt/">
+  <link rel="alternate" hreflang="x-default" href="./">
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans min-h-screen flex flex-col">
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./"><svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path class="logo-base" d="M15 105Q60 115 105 105" stroke-width="8" stroke-linecap="round"/><path class="logo-mark" d="M60 105L52 95L68 85L52 75L68 65L60 55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><g class="logo-mark" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><circle cx="60" cy="28" r="7"/><path d="M60 35V55M60 42L45 32M60 42L75 32"/></g></svg><span>Spring<span class="up">Up</span></span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="features">Features</a>
+        <a href="pricing">Pricing</a>
+        <a href="support">Support</a>
+      </nav>
+      <a class="lang" href="pt/" hreflang="pt-PT" lang="pt-PT" aria-label="Ver em português">PT</a>
+    </div>
+  </header>
 
-    <!-- Header / Navbar -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <!-- Minimal SpringUp logo -->
-                <svg viewBox="0 0 120 120" fill="none" class="w-10 h-10" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M 15 105 Q 60 115 105 105" stroke="#1E3A8A" stroke-width="6" stroke-linecap="round" />
-                    <path d="M 60 105 L 52 95 L 68 85 L 52 75 L 68 65 L 60 55" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
-                    <g stroke="#3B82F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="60" cy="30" r="6" fill="none" />
-                        <path d="M 60 36 L 60 55 M 60 42 L 45 32 M 60 42 L 75 32" />
-                    </g>
-                </svg>
-                <span class="font-black italic tracking-tight text-xl">
-                    <span class="text-navy">Spring</span><span class="text-primary">Up</span>
-                </span>
-            </div>
-            <span class="bg-blue-50 text-primary px-3 py-1 rounded-full text-sm font-bold">Suporte</span>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Trampoline · DMT</p>
+        <h1>Training management for trampoline and double mini-trampoline.</h1>
+        <p class="lead">SpringUp is the app for TRA and DMT coaches and gymnasts. Log every session, measure time of flight, follow the training plan and run your club, all in one place.</p>
+        <div class="actions">
+          <a class="store" href="https://apps.apple.com/app/id6762124259"><small>Download on the</small><span>App Store</span></a>
+          <a class="store" href="https://play.google.com/store/search?q=SpringUp&amp;c=apps"><small>Get it on</small><span>Google Play</span></a>
         </div>
-    </header>
+      </div>
+    </section>
 
-    <!-- Main Content -->
-    <main class="max-w-5xl mx-auto px-6 py-12 flex-grow w-full">
-        
-        <!-- Page Title -->
-        <div class="mb-12">
-            <h1 class="text-4xl font-black text-navy tracking-tight mb-4">How can we help?</h1>
-            <p class="text-lg text-slate-500">We are here to support coaches and athletes in getting the most out of SpringUp.</p>
+    <section class="section" aria-labelledby="highlights">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="highlights">Everything a training day needs</h2>
+          <p>Built around how trampoline clubs actually train.</p>
         </div>
-
-        <!-- Contact Cards -->
-        <section class="grid md:grid-cols-2 gap-6">
-            <!-- Email Card -->
-            <a href="mailto:afonsomota2001@gmail.com" class="group bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all hover:border-primary/30 flex items-start gap-5">
-                <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2z" />
-                    </svg>
-                </div>
-                <div>
-                    <h3 class="font-bold text-slate-900 text-lg">Email</h3>
-                    <p class="text-slate-500 text-sm mt-1">Send us an email directly.</p>
-                    <p class="font-medium text-primary mt-2">afonsomota2001@gmail.com</p>
-                </div>
-            </a>
-
-            <!-- WhatsApp Card -->
-            <a href="https://wa.me/351938240809" target="_blank" rel="noopener noreferrer" class="group bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all hover:border-[#25D366]/30 flex items-start gap-5">
-                <div class="w-12 h-12 bg-green-50 text-[#25D366] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                    <!-- WhatsApp Icon SVG -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12.031 0C5.385 0 0 5.384 0 12.031c0 2.128.552 4.195 1.6 6.015L.302 24l6.105-1.599c1.764.954 3.766 1.458 5.82 1.458 6.647 0 12.03-5.384 12.03-12.031C24.257 5.384 18.875 0 12.031 0zm3.805 17.15c-.198.557-1.156 1.077-1.615 1.134-.415.051-1.026.126-3.23-.787-2.665-1.103-4.364-3.83-4.494-4.004-.131-.174-1.073-1.428-1.073-2.723 0-1.295.674-1.936.918-2.203.244-.266.531-.333.708-.333.177 0 .354 0 .509.008.163.008.38-.064.593.454.225.548.575 1.408.628 1.516.053.108.088.235.022.366-.066.132-.101.213-.203.333-.102.12-.213.253-.305.354-.101.11-.208.23-.088.438.12.208.535.885 1.144 1.428.784.698 1.448.914 1.657 1.022.208.108.331.088.455-.053.124-.141.536-.623.682-.837.146-.214.292-.178.481-.108.189.07 1.192.562 1.396.664.204.102.34.153.389.238.049.085.049.495-.149 1.052z"/>
-                    </svg>
-                </div>
-                <div>
-                    <h3 class="font-bold text-slate-900 text-lg">WhatsApp</h3>
-                    <p class="text-slate-500 text-sm mt-1">Quick support through messaging.</p>
-                    <p class="font-medium text-[#25D366] mt-2">+351 938 240 809</p>
-                </div>
-            </a>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="mt-16 border-t border-slate-200 pt-12">
-            <h2 class="text-2xl font-bold text-navy mb-6">Frequently Asked Questions (FAQ)</h2>
-            <div class="space-y-3" id="faq-list">
-
-                <!-- FAQ Item 1 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">How do I create my first training session?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        After logging in, navigate to <strong>Sessions</strong> in the main menu and tap the <strong>+</strong> button. Fill in the session details — date, duration, exercise type — and assign it to your athletes. Once saved, athletes will receive a notification and can track their progress directly in the app.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 2 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">How do I add athletes to my team?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        Go to <strong>My Team</strong> and select <strong>Invite Athlete</strong>. You can invite by email or share a unique invite link. The athlete must have a SpringUp account — if they don't have one, they'll be prompted to create one when they follow the link.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 3 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">Can athletes log their own workouts?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        Yes. Athletes can log personal workouts independently under <strong>My Workouts</strong>. These logs are visible to their assigned coach, enabling better progress monitoring. Athletes can also mark coach-assigned sessions as completed and add personal notes.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">How do I track an athlete's performance over time?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        Open the athlete's profile and select the <strong>Progress</strong> tab. You'll find charts and statistics covering session completion, personal records, load history, and more. You can filter by date range or exercise category to focus on specific training blocks.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 5 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">Is SpringUp available on iOS and Android?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        Yes. SpringUp is available on both the <strong>App Store</strong> (iOS) and <strong>Google Play</strong> (Android). All data is synced in real time across devices, so coaches and athletes can switch between devices seamlessly.
-                    </div>
-                </div>
-
-                <!-- FAQ Item 6 -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                    <button onclick="toggleFaq(this)" class="w-full text-left px-6 py-5 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors">
-                        <span class="font-semibold text-slate-900">How do I reset my password?</span>
-                        <svg class="w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="faq-answer hidden px-6 pb-5 text-slate-500 text-sm leading-relaxed">
-                        On the login screen, tap <strong>Forgot password?</strong> and enter your registered email address. You will receive a reset link within a few minutes. If you don't see the email, please check your spam folder. For further help, contact us at <a href="mailto:afonsomota2001@gmail.com" class="text-primary underline">afonsomota2001@gmail.com</a>.
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Guides and Documentation -->
-        <section class="mt-8 border-t border-slate-200 pt-12 mb-8">
-            <h2 class="text-2xl font-bold text-navy mb-6">Guides and Documentation</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-
-                <!-- Guide: Getting Started -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex items-start gap-5 hover:shadow-md hover:border-primary/30 transition-all">
-                    <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-slate-900">Getting Started</h3>
-                        <p class="text-slate-500 text-sm mt-1">Set up your account, create your team, and run your first training session step by step.</p>
-                    </div>
-                </div>
-
-                <!-- Guide: Coach's Handbook -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex items-start gap-5 hover:shadow-md hover:border-primary/30 transition-all">
-                    <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-slate-900">Coach's Handbook</h3>
-                        <p class="text-slate-500 text-sm mt-1">A complete guide to managing athletes, planning training blocks, and analysing performance data.</p>
-                    </div>
-                </div>
-
-                <!-- Guide: Athlete Guide -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex items-start gap-5 hover:shadow-md hover:border-primary/30 transition-all">
-                    <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-slate-900">Athlete Guide</h3>
-                        <p class="text-slate-500 text-sm mt-1">Learn how to log workouts, track your progress, view coach feedback, and manage your profile.</p>
-                    </div>
-                </div>
-
-                <!-- Guide: Privacy & Data -->
-                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex items-start gap-5 hover:shadow-md hover:border-primary/30 transition-all">
-                    <div class="w-12 h-12 bg-blue-50 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-slate-900">Privacy &amp; Data</h3>
-                        <p class="text-slate-500 text-sm mt-1">Understand how SpringUp stores and protects your data, and how to manage your privacy settings.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-    
-    <!-- Footer -->
-    <footer class="bg-white border-t border-slate-200 mt-auto">
-        <div class="max-w-5xl mx-auto px-6 py-8 text-center text-slate-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 SpringUp. All rights reserved.</p>
-            <div class="flex items-center gap-3">
-                <span>SpringUp Support</span>
-                <span class="text-slate-300">|</span>
-                <a href="policy-privacy.html" class="text-primary hover:underline">Privacy Policy</a>
-            </div>
+        <div class="grid grid-4">
+          <div class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1Z"/><path d="M16 5h2a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2"/><path d="M9 11h6M9 15h4"/></svg></div>
+            <h3>Training log</h3>
+            <p>Sessions, turns per gymnast, attendance and notes, for the whole club or for your own training.</p>
+          </div>
+          <div class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M10 2h4"/></svg></div>
+            <h3>Time of flight</h3>
+            <p>Read time of flight live from Veriflite sensors on your local network, with history per skill.</p>
+          </div>
+          <div class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h3M14 14h3M7 17h3"/></svg></div>
+            <h3>Training plans</h3>
+            <p>Macro cycles with phases and weekly targets, assigned to gymnasts, with progress against the plan.</p>
+          </div>
+          <div class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 20a6.5 6.5 0 0 0-3-5.5"/></svg></div>
+            <h3>Club management</h3>
+            <p>Create your club, invite gymnasts and coaches with a 6-character code and organise them in groups.</p>
+          </div>
         </div>
-    </footer>
-    <script>
-        function toggleFaq(btn) {
-            const answer = btn.nextElementSibling;
-            const icon = btn.querySelector('svg');
-            const isOpen = !answer.classList.contains('hidden');
-            // Close all open answers
-            document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('#faq-list button svg').forEach(el => el.classList.remove('rotate-180'));
-            // Open clicked one if it was closed
-            if (!isOpen) {
-                answer.classList.remove('hidden');
-                icon.classList.add('rotate-180');
-            }
-        }
-    </script>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="roles">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="roles">For coaches and for gymnasts</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Coaches</h3>
+            <ul class="ticks">
+              <li>Log club sessions, attendance and turns</li>
+              <li>A hub for each gymnast: history, time of flight, routines, plans, physical stats and notes</li>
+              <li>Routine builder for TRA and DMT, with execution scores</li>
+              <li>Competitions, evaluations and training load</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Gymnasts</h3>
+            <ul class="ticks">
+              <li>Join your club with the coach's code, or use SpringUp on your own</li>
+              <li>Your own training log and time of flight history</li>
+              <li>Routines, physical stats and evaluations</li>
+              <li>Competition history and the plans your coach assigns</li>
+            </ul>
+          </div>
+        </div>
+        <p class="note"><a href="features">See all features</a></p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="pricing-teaser">
+      <div class="wrap">
+        <div class="band">
+          <div>
+            <h2 id="pricing-teaser">Plans from €8.99/month</h2>
+            <p>Gymnasts in a club don't pay: everyone in a club gets the features of the club owner's plan.</p>
+          </div>
+          <div class="actions">
+            <a class="btn" href="pricing">See plans and pricing</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="get">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="get">Get SpringUp</h2>
+          <p>Available on iPhone and Android. One account works on both.</p>
+        </div>
+        <div class="actions">
+          <a class="store" href="https://apps.apple.com/app/id6762124259"><small>Download on the</small><span>App Store</span></a>
+          <a class="store" href="https://play.google.com/store/search?q=SpringUp&amp;c=apps"><small>Get it on</small><span>Google Play</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <nav class="footer-links" aria-label="Legal and help">
+        <a href="privacy">Privacy</a>
+        <a href="terms">Terms</a>
+        <a href="delete-account">Delete account</a>
+        <a href="support">Support</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="mailto:afonsomota2001@gmail.com">afonsomota2001@gmail.com</a>
+      </div>
+      <p class="copy">© 2026 SpringUp</p>
+    </div>
+  </footer>
 </body>
 </html>

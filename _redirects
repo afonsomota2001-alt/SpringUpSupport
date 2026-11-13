@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects. Old GitHub Pages URLs that may be in the store listings.
+/policy-privacy.html    /privacy  301
+/policy-privacy         /privacy  301
+/terms-of-service.html  /terms    301
+/terms-of-service       /terms    301

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .b { stroke: #1E3A8A; } .m { stroke: #007AFF; }
+    @media (prefers-color-scheme: dark) { .b { stroke: #8FB4FF; } .m { stroke: #0A84FF; } }
+  </style>
+  <path class="b" d="M15 105Q60 115 105 105" stroke-width="8" stroke-linecap="round"/>
+  <path class="m" d="M60 105L52 95L68 85L52 75L68 65L60 55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="m" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="60" cy="28" r="7"/>
+    <path d="M60 35V55M60 42L45 32M60 42L75 32"/>
+  </g>
+</svg>
