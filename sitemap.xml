@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://springupapp.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/features"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/funcionalidades"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/features"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/pricing"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/precos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/pricing"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/support</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/suporte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/support"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/privacy"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/termos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/terms"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/delete-account</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/apagar-conta"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/delete-account"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/funcionalidades</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/features"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/funcionalidades"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/features"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/precos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/pricing"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/precos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/pricing"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/suporte</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/suporte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/support"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/privacidade</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/privacy"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/termos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/termos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/terms"/>
+  </url>
+  <url>
+    <loc>https://springupapp.com/pt/apagar-conta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://springupapp.com/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://springupapp.com/pt/apagar-conta"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://springupapp.com/delete-account"/>
+  </url>
+</urlset>
