@@ -1,0 +1,13 @@
+// Cloudflare Worker that serves this static site (no build step, no Worker code).
+// "name" must match the Worker created in the Cloudflare dashboard.
+{
+  "name": "springupsupport",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": ".",
+    // /privacy serves privacy.html, /pt/ serves pt/index.html
+    "html_handling": "auto-trailing-slash",
+    // Unknown paths get 404.html with a 404 status
+    "not_found_handling": "404-page"
+  }
+}
