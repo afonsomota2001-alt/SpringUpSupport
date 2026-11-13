@@ -248,6 +248,7 @@ a.card:hover h3 { color: var(--primary); }
 .store small { font-size: 0.72rem; opacity: 0.85; }
 .store span { font-size: 1.12rem; font-weight: 650; }
 .store:hover { opacity: 0.88; }
+.store-web { background: var(--card); color: var(--text); border: 1.5px solid var(--text); }
 
 /* ---------- Highlights band ---------- */
 
